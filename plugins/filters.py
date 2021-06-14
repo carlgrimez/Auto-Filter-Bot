@@ -55,7 +55,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b> Join our channels to access the files😜..Here is the result for your request 😇 {message.text}</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -64,14 +64,14 @@ async def filter(client: Bot, message: Message):
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="😻 GO TO NEXT PAGE 😻",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
         )
 
         await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b> join our channels to access the files😜..Here is the result for your request 😇 {message.text}</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
@@ -124,7 +124,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("😻 GO TO NEXTNEXT PAGE 😻", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
@@ -159,7 +159,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")]
+                [InlineKeyboardButton("MY DEV 👨‍🔬", url="https://t.me/Mllieeleven")]
             ])
 
             await query.message.edit_text(
@@ -174,7 +174,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")]
+                [InlineKeyboardButton("🥰 SUPPORT 🥰", url="https://t.me/Rahulthrilok")]
             ])
 
             await query.message.edit_text(
@@ -200,7 +200,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
 
     else:
-        await query.answer("Thats not for you!!",show_alert=True)
+        await query.answer("വലതും കിട്ടിയെങ്കിൽ എന്നോടും കൂടി പറ 😂😂",show_alert=True)
 
 
 def split_list(l, n):
