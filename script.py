@@ -29,11 +29,11 @@ Bot will automatically search for your file and give links to that!
    
 👨‍🔬<b>Creater :</b><b>@Millieeleven</b>
 
-😙<b>Language : <code>Python3</code></b>
+🗣<b>Language : <code>Python3</code></b>
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+📚<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
-⭕️<b>Tutorial Video :</b> <a href='https://youtu.be/KQVYQAOsFYY'>Video Link</a> 
+💢<b>Tutorial Video :</b> <a href='https://youtu.be/KQVYQAOsFYY'>Video Link</a> 
 
 <b>@Millieeleven</b>
 """
