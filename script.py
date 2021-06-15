@@ -3,7 +3,7 @@ class script(object):
 
     START_MSG = """ <b>Hey {}
 
-My name is Kakashi Hatake.An anime themed autofilter bot maintained by @Millieeleven👨‍🔬.So don't waste your time looking at this😂.Because you can't add me to your group👻👻.
+My name is Kakashi Hatake. An anime themed autofilter bot maintained by @Millieeleven👨‍🔬. So don't waste your time looking at this😂. Because you can't add me to your group👻👻.
 
 For more click help</b>"""
 
@@ -27,7 +27,7 @@ Bot will automatically search for your file and give links to that!
 
     ABOUT_MSG = """🙈<b>My Name : Kakashi Hatake</b>
    
-👨‍🔬<b>Creator : </b><b>@Millieeleven</b>
+👨‍🔬<b>Creater :</b> <b>@Millieeleven</b>
 
 🗣<b>Language : <code>Python3</code></b>
 
