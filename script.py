@@ -3,7 +3,7 @@ class script(object):
 
     START_MSG = """ <b>Hi {}
 
-This is an autofilter bot maintained by @Millieeleven👨‍🔬.So don't waste your time looking at this😂.Because only authusers can use my commands😇.
+This is an autofilter bot maintained by @Millieeleven👨‍🔬.So don't waste your time looking at this😂.Because you can't add me to your group👻👻.
 
 For more click help</b>"""
 
@@ -27,12 +27,13 @@ Bot will automatically search for your file and give links to that!
 
     ABOUT_MSG = """🙈<b>My Name : Bae Suzy</b>
    
-👨‍🔬<b>Creater :</b> @Millieeleven
+👨‍🔬<b>Creater :</b><b>@Millieeleven</b>
 
-😙<b>Language :</b> <code>Python3</code>
+😙<b>Language : <code>Python3</code></b>
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
 ⭕️<b>Tutorial Video :</b> <a href='https://youtu.be/KQVYQAOsFYY'>Video Link</a> 
 
+<b>@Millieeleven</b>
 """
