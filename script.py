@@ -3,7 +3,7 @@ class script(object):
 
     START_MSG = """ <b>Hey {}
 
-My name is Kakashi Hatake. An anime themed autofilter bot maintained by @Millieeleven👨‍🔬. So don't waste your time looking at this😂. Because you can't add me to your group👻👻.
+My name is Kakashi Hatake.An anime themed autofilter bot maintained by @Millieeleven👨‍🔬.So don't waste your time looking at this😝.Because you can't add me to your group👻👻.
 
 For more click help</b>"""
 
